@@ -44,7 +44,7 @@ namespace PruebaTecnicaSitec.Controllers
         [HttpPost]
         public async Task<ActionResult<Venta>> PostVenta(Venta venta)
         {
-            
+
             using (var dbContextTransaction = _context.Database.BeginTransaction())
             {
                 try
