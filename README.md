@@ -1,12 +1,12 @@
 # API REST PARA LA GESTION DE ALMACEN
 
-Implementacion de una REST API .NET Core que consta de los siguientes servicios:
-
 ## Tecnologias  
 
 **IDE:** Visual Studio 2022
 
 **Framework:** .NET CORE 6, Entity Framework Core
+
+## Implementacion de una REST API .NET Core que consta de los siguientes servicios:
 
 ## Gestion de Producto
 
