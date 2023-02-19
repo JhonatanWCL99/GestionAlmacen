@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using PruebaTecnicaSitec.Data;
@@ -11,9 +12,11 @@ using PruebaTecnicaSitec.Data;
 namespace PruebaTecnicaSitec.Migrations
 {
     [DbContext(typeof(AlmacenDB))]
-    partial class AlmacenDBModelSnapshot : ModelSnapshot
+    [Migration("20230219180912_AddTotalNetoVenta")]
+    partial class AddTotalNetoVenta
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -64,6 +64,18 @@
         <member name="M:PruebaTecnicaSitec.Migrations.CreateDetalleVentaSchema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:PruebaTecnicaSitec.Migrations.AddTotalNetoVenta">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.AddTotalNetoVenta.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.AddTotalNetoVenta.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.AddTotalNetoVenta.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="P:PruebaTecnicaSitec.Models.DetalleInventario.Id">
             <summary>
             Identificador del Detalle de Inventario
@@ -176,6 +188,23 @@
             <summary>
             Total Vendido en Bs
             </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Venta.total_neto">
+            <summary>
+            Total Vendido en Bs mas 13% (IVA) 
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Venta.detallesVenta">
+            <summary>
+            Detalle de la Venta
+            </summary>
+            <example>[
+            { 
+            "cantidad":2,
+            "precio":15,
+            "ProductoId":1 
+            }
+            ]</example>
         </member>
     </members>
 </doc>

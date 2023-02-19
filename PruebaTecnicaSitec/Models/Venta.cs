@@ -18,6 +18,20 @@ namespace PruebaTecnicaSitec.Models
         /// Total Vendido en Bs
         /// </summary>
         public float total { get; set; }
+        /// <summary>
+        /// Total Vendido en Bs mas 13% (IVA) 
+        /// </summary>
+        public float total_neto { get; set; }
+        /// <summary>
+        /// Detalle de la Venta
+        /// </summary>
+        /// <example>[
+        /// { 
+        /// "cantidad":2,
+        /// "precio":15,
+        /// "ProductoId":1 
+        /// }
+        /// ]</example>
         [Required]
         public IList<DetalleVenta> detallesVenta{ get; set; } = new List<DetalleVenta>();
     }

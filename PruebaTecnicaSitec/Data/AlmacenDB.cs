@@ -19,6 +19,9 @@ namespace PruebaTecnicaSitec.Data
             modelBuilder.Entity<Venta>().HasMany(d =>d.detallesVenta);
         }
 
-
+        internal Task<Inventario> FindAsync(int idInventario)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
