@@ -108,7 +108,7 @@ Implementacion de una REST API .NET Core que consta de los siguientes servicios:
 #### Eliminar un inventario
 
 ```http
-  DELETE /api/Ventas/${id}
+  DELETE /api/Inventarios/${id}
 ```
 
 | Parameter | Type     | Description                       |
