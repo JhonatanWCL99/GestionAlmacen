@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PruebaTecnicaSitec</name>
+    </assembly>
+    <members>
+        <member name="T:PruebaTecnicaSitec.Migrations.CreateProductoSchema">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateProductoSchema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateProductoSchema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateProductoSchema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PruebaTecnicaSitec.Migrations.CreateInventarioSchema">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateInventarioSchema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateInventarioSchema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateInventarioSchema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PruebaTecnicaSitec.Migrations.CreateDetalleInventarioSchema">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateDetalleInventarioSchema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateDetalleInventarioSchema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateDetalleInventarioSchema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PruebaTecnicaSitec.Migrations.CreateVentaSchema">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateVentaSchema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateVentaSchema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateVentaSchema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PruebaTecnicaSitec.Migrations.CreateDetalleVentaSchema">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateDetalleVentaSchema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateDetalleVentaSchema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PruebaTecnicaSitec.Migrations.CreateDetalleVentaSchema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleInventario.Id">
+            <summary>
+            Identificador del Detalle de Inventario
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleInventario.cantidad">
+            <summary>
+            Stock del Producto
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleInventario.subtotal">
+            <summary>
+            Subtotal en Bs
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleInventario.ProductoId">
+            <summary>
+            Identificador del Producto
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleInventario.InventarioId">
+            <summary>
+            Identificador del Inventario al que pertenece
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleVenta.Id">
+            <summary>
+            Identificador del Detalle de Venta
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleVenta.cantidad">
+            <summary>
+            Cantidad del producto a Vender
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleVenta.precio">
+            <summary>
+            Precio del Producto
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleVenta.subtotal">
+            <summary>
+            Subtotal en Bs
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleVenta.ProductoId">
+            <summary>
+            Identificador del Producto
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.DetalleVenta.VentaId">
+            <summary>
+            Identificador de la Venta al que pertenece
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Inventario.Id">
+            <summary>
+            Identificador del Inventario
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Inventario.fecha">
+            <summary>
+            Fecha de Registro de Inventario
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Inventario.total">
+            <summary>
+            Total del Inventario en Bs
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Inventario.detallesInventario">
+            <summary>
+            Detalle del Inventario
+            </summary>
+            <example>[
+            { 
+            "cantidad":2,
+            "ProductoId":1 
+            }
+            ]</example>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Producto.Id">
+            <summary>
+            Identificador del Producto
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Producto.Nombre">
+            <summary>
+            Nombre del Producto
+            </summary>
+            <example>Manzana</example>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Producto.Costo">
+            <summary>
+            Costo del Producto
+            </summary>
+            <example>2</example>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Venta.Id">
+            <summary>
+            Identificador de la Venta
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Venta.fecha">
+            <summary>
+            Fecha de Registro de Venta
+            </summary>
+        </member>
+        <member name="P:PruebaTecnicaSitec.Models.Venta.total">
+            <summary>
+            Total Vendido en Bs
+            </summary>
+        </member>
+    </members>
+</doc>
