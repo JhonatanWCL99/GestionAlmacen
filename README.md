@@ -2,6 +2,11 @@
 
 Implementacion de una REST API .NET Core que consta de los siguientes servicios:
 
+## Tecnologias  
+
+**IDE:** Visual Studio 2022
+
+**Framework:** .NET CORE 6, Entity Framework Core
 
 ## Gestion de Producto
 
